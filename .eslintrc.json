@@ -1,0 +1,11 @@
+{
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "env": {
+    "node": true,
+    "es2022": true
+  },
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
